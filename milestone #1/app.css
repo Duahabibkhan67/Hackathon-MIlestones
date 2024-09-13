@@ -1,0 +1,130 @@
+html{
+ scroll-behavior: smooth;
+}
+
+#resume-h1{
+ color:rgba(0, 0, 128, 0.902);
+ font-family: system-ui;
+ font-size: 3rem;
+ margin-left : 2.5rem;
+ margin-top: 2rem;
+ display: flex;
+ padding: 3px;
+}  
+
+#profile-img{
+ height: 10rem;
+ width: 10rem;
+ border-radius: 50%;
+margin-left: 5rem;
+}
+body{
+ border: solid;
+background-color: white;
+ display: flex;
+height: 200vh;
+width: 43rem;
+flex-direction: column;
+margin-left: 15rem;
+margin-top: 2rem;
+
+}
+#first-section{
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ height: 18rem;
+ width: 50rem;
+}
+#resume-h2{
+ color: black;
+ font-size: 1rem;
+ font-family: system-ui;
+padding: 2px;
+ margin-left: 18rem;
+}
+ #per-info-h1{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.794);
+  font-size: 1rem;
+  font-family: system-ui;
+  height: 1.5rem;
+width:11rem;
+padding: 2px;
+background-color: rgba(0, 0, 128, 0.963);
+color: white;
+ }
+ #personal-info{
+  margin-left: 3rem;
+  margin-right: 3rem;
+ }
+p{
+ font-size: rem;
+}
+*{
+ font-size: 1rem;
+ font-family: system-ui;
+}
+hr{
+ color: black;
+}
+#Education-info{
+ margin-left: 3rem;
+ margin-right: 3rem;
+}
+#edu-info-h1{
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.794);
+  font-size: 1rem;
+  font-family: system-ui;
+  height: 1.5rem;
+width:5rem;
+padding: 2px;
+background-color: rgba(0, 0, 128, 0.963);
+color: white;
+}
+#exprience-info{
+  margin-left: 3rem;
+ margin-right: 3rem;
+}
+#ex-info-h1{
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.794);
+  font-size: 1rem;
+  font-family: system-ui;
+  height: 1.5rem;
+width:6rem;
+padding: 2px;
+background-color: rgba(0, 0, 128, 0.963);
+color: white; 
+}
+#fifth-sec-info{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+#fifth-sec-h1{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.794);
+  font-size: 1rem;
+  font-family: system-ui;
+  height: 2rem;
+width:3rem;
+padding: 2px;
+background-color: rgba(0, 0, 128, 0.963);
+color: white; 
+}
+
+#togglebutton{
+  background-color: rgba(0, 0, 128, 0.897);
+  color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 128, 0.833);
+  height: 2rem;
+  width: 6rem;
+  border: none;
+  margin-left: 16rem;
+  padding: 2px;
+  transition: 0.3ms;
+}
+#togglebutton:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+#togglebutton:active{
+  opacity: 0.8;
+}
